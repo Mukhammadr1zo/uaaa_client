@@ -1,7 +1,7 @@
 // src/config.js
 
 // API URL
-export const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
+export const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://uaaa-server.onrender.com/api';
 
 // Server URL without /api path (for WebSockets)
 export const serverUrl = apiUrl.replace('/api', '');
