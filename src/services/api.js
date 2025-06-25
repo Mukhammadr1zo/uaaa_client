@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 // Base URL for API calls
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://uaaa-server.onrender.com/api';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://uaaa-server-oc3p.onrender.com/api';
 
 // Create axios instance with default config
 const api = axios.create({
